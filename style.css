@@ -1,0 +1,150 @@
+body {
+    background-color: #9669E0;
+    margin: 0;
+
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 18px;
+}
+
+nav {
+    background-color: #2C0C45;
+    width: 591px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    line-height: 2.5;
+    padding-left: 0;
+}
+
+nav ul li {
+
+    display: inline-block;
+
+}
+
+li+li {
+    margin-left: 91px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+a:hover {
+    color: #F7E0E7;
+}
+
+
+.page {
+    width: 690px;
+    height: 317px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.page section {
+    background-color: #F7E0E7;
+    border-radius: 20px;
+
+}
+
+h2 {
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+
+    margin: 0;
+    margin: 19px 470px 0 39px;
+
+    display: inline-block;
+
+}
+
+.info-sobremim {
+    display: flex;
+    align-items: center;
+
+    height: 317px;
+
+}
+
+
+
+.info-sobremim p {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-left: 40px;
+    text-align: left;
+
+    margin: 0;
+}
+
+.info-sobremim img {
+    width: 237px;
+    padding: 0 30px 30px;
+}
+
+.info-stacks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+
+    height: 317px;
+}
+
+.info-stacks img {
+    width: 129px;
+    height: 129px;
+}
+
+.info-hoobs {
+
+    display: flex;
+    align-items: center;
+    height: 317px;
+
+}
+
+.info-hoobs p {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-left: 40px;
+    text-align: left;
+
+    /* margin: 0; */
+
+}
+
+.info-hoobs img {
+
+    width: 191px;
+    height: 209px;
+    padding: 50px;
+
+}
+
+footer p {
+    color: #D2216C;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    text-align: left;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+}
