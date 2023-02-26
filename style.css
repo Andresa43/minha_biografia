@@ -139,11 +139,32 @@ h2 {
 
 }
 
+.info-contato{
+    height: 60px;
+}
+
+.info-contato form{
+    padding: 20px 0;
+}
+
+button{
+    background-color: #9669E0;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    padding: 5px 10px;
+
+}
+
+button:hover{
+    background-color: #D2216C;
+}
+
 footer p {
     color: #D2216C;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
-    text-align: left;
+    text-align: center;
     font-weight: 400;
     font-size: 24px;
     line-height: 1.5;
